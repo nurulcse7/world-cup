@@ -38,3 +38,44 @@ body {
 .half-width img {
     width: 116%;
 }
+
+
+
+.transfer {
+    width: 1321px;
+}
+
+.three-button {
+    text-align: center;
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.button-one {
+    width: 252px;
+    height: 64px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.button-two {
+    width: 252px;
+    height: 64px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.button-three {
+    width: 252px;
+    height: 64px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
