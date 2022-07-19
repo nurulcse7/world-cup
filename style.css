@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    width: 1321px;
+    height: 646px;
+    margin: 30px 60px;
+    border-radius: 10px;
+    background-color: #161616;
+    color: #FFFFFF;
+
+}
+
+.top-banner h1 {
+    font-size: 70px;
+}
+
+.banner-button {
+    background-color: #DD0000;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.fa-youtube {
+    font-size: larger;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 116%;
+}
