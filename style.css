@@ -43,6 +43,8 @@ body {
 
 .transfer {
     width: 1321px;
+    display: flex;
+    gap: 20px;
 }
 
 .three-button {
@@ -79,3 +81,42 @@ body {
     background-color: #DD0000;
     color: #FFFFFF;
 }
+
+
+
+.player-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+}
+
+.player img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.player button {
+    width: 32%;
+    padding: 12px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.fa-clock  {
+    color: grey;
+    margin-right: 5px;
+}
+
+.fa-message {
+    color: gray;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/* Footer  */
+
