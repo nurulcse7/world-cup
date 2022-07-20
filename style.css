@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Banner  */
 .top-banner {
     width: 1321px;
     height: 646px;
@@ -39,7 +40,7 @@ body {
     width: 116%;
 }
 
-
+/* Transfer  */
 
 .transfer {
     width: 1321px;
@@ -120,3 +121,31 @@ body {
 
 /* Footer  */
 
+.footer {
+    height: 444px;
+    background-color: #161616;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 50px 100px 50px;
+}
+
+.footer h1 {
+
+    font-size: 70px;
+    
+    
+}
+
+.horizontal-line {
+    width: 75vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #B9B9B9;
+    font-size: larger;
+}
