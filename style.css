@@ -44,7 +44,9 @@ body {
     color: white;
     font-size: larger;
     font-weight: 700;
+   
 }
+
 
 .fa-angle-right {
     margin-left: 10px;
@@ -148,6 +150,24 @@ body {
     color: gray;
     margin-right: 5px;
     margin-left: 10px;
+}
+
+.view-all {
+    width: 35%;
+    margin: 30px;
+    margin-left: 100%;
+    padding: 20px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: larger;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    display: none;
 }
 
 /* Footer  */
@@ -268,5 +288,9 @@ body {
     .footer-menu {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .view-all {
+        display: inline;
     }
 }
